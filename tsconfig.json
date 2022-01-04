@@ -9,7 +9,9 @@
     "baseUrl": "src",
     "paths": {
       "@/tests/*": ["../tests/*"],
-      "@/*": ["*"]
+      "@/*": ["*"],
+      "axios": ["."]
+      
     }
   },
   "include": ["src", "tests"],

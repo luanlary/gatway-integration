@@ -15,7 +15,7 @@ services:
     restart: always
     command: bash -c "npm install && npm run debug"
     environment:
-      - MONGO_URL=mongodb://mongo:27017/clean-node-api
+      - MONGO_URL=mongodb://mongo:27017/gatway-integration
     volumes:
       - ./dist/:/usr/src/gatway-integration/dist/
       - ./package.json:/usr/src/gatway-integration/package.json

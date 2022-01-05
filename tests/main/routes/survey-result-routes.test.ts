@@ -13,9 +13,9 @@ let app: Express
 
 const mockAccessToken = async (): Promise<string> => {
   const res = await accountCollection.insertOne({
-    name: 'Rodrigo',
-    email: 'rodrigo.manguinho@gmail.com',
-    password: '123'
+    name: 'Indeed',
+    email: 'luan.lima@solides.com.br',
+    password: 'nalucdmsn#'
   })
   const id = res.insertedId.toHexString()
   const accessToken = sign({ id }, env.jwtSecret)

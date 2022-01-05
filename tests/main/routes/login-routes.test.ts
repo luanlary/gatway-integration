@@ -29,19 +29,19 @@ describe('Login Routes', () => {
       await request(app)
         .post('/api/signup')
         .send({
-          name: 'Rodrigo',
-          email: 'rodrigo.manguinho@gmail.com',
-          password: '123',
-          passwordConfirmation: '123'
+          name: 'Indeed',
+          email: 'luan.lima@solides.com.br',
+          password: 'nalucdmsn#',
+          passwordConfirmation: 'nalucdmsn#'
         })
         .expect(200)
       await request(app)
         .post('/api/signup')
         .send({
-          name: 'Rodrigo',
-          email: 'rodrigo.manguinho@gmail.com',
-          password: '123',
-          passwordConfirmation: '123'
+          name: 'Indeed',
+          email: 'luan.lima@solides.com.br',
+          password: 'nalucdmsn#',
+          passwordConfirmation: 'nalucdmsn#'
         })
         .expect(403)
     })
@@ -49,17 +49,17 @@ describe('Login Routes', () => {
 
   describe('POST /login', () => {
     test('Should return 200 on login', async () => {
-      const password = await hash('123', 12)
+      const password = await hash('nalucdmsn#', 12)
       await accountCollection.insertOne({
-        name: 'Rodrigo',
-        email: 'rodrigo.manguinho@gmail.com',
+        name: 'Indeed',
+        email: 'luan.lima@solides.com.br',
         password
       })
       await request(app)
         .post('/api/login')
         .send({
-          email: 'rodrigo.manguinho@gmail.com',
-          password: '123'
+          email: 'luan.lima@solides.com.br',
+          password: 'nalucdmsn#'
         })
         .expect(200)
     })
@@ -68,8 +68,8 @@ describe('Login Routes', () => {
       await request(app)
         .post('/api/login')
         .send({
-          email: 'rodrigo.manguinho@gmail.com',
-          password: '123'
+          email: 'luan.lima@solides.com.br',
+          password: 'nalucdmsn#'
         })
         .expect(401)
     })

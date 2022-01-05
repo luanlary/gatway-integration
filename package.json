@@ -1,5 +1,5 @@
 {
-  "name": "clean-node-api",
+  "name": "gatway-integration",
   "version": "3.0.0",
   "description": "NodeJs Rest API and GraphQL using TDD, Clean Architecture, Typescript and Design Patterns",
   "author": "Luan Lary Lima",

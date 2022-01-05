@@ -1,18 +1,5 @@
-[![Build Status](https://travis-ci.org/rmanguinho/clean-ts-api.svg?branch=master)](https://travis-ci.org/rmanguinho/clean-ts-api)
-[![Coverage Status](https://coveralls.io/repos/github/rmanguinho/clean-ts-api/badge.svg)](https://coveralls.io/github/rmanguinho/clean-ts-api)
-[![Known Vulnerabilities](https://snyk.io/test/github/rmanguinho/clean-ts-api/badge.svg)](https://snyk.io/test/github/rmanguinho/clean-ts-api)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
-
-# **Clean Node API**
-
-[![alt text](./public/img/logo-course.png "Link para o treinamento")](https://www.udemy.com/course/tdd-com-mango/?referralCode=B53CE5CA2B9AFA5A6FA1)
-
+# **gatway-integration**
 ---
-
-## [**Link para o curso completo**](https://www.udemy.com/course/tdd-com-mango/?referralCode=B53CE5CA2B9AFA5A6FA1)
-
 Essa API integração com o Jobs e os demais Job's Boards!
 
 O objetivo da Api é funcionar como um Gatway que forneçe uma via segura de integração (através de autenticação interna) para interfacear o Jobs com os demais Job Boards, mantendo assim um desacoplamento para as chamadas de post_apply das candidaturas.
@@ -98,6 +85,7 @@ O objetivo da Api é funcionar como um Gatway que forneçe uma via segura de int
 * Bson ObjectId
 * Apollo Server Integration Testing
 * Axios
+
 > ## Features do Node
 
 * Documentação de API com Swagger

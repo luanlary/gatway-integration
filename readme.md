@@ -6,6 +6,11 @@ O objetivo da Api é funcionar como um Gatway que forneçe uma via segura de int
 <br /><br />
 
 
+<b>Referência para rampagem</b>
+https://www.youtube.com/watch?v=vV1wQ6GFH0A&list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG
+
+<b>* A playlist supra citada, contempla todos os detalhes da arquitetura implementada, e pode ser usada como material de consulta para futuras, melhorias, refatorações e melhor compreensão dos principios aplicados no desenvolvimento da API</b>
+
 > ## APIs construídas no treinamento
 
 1. [Cadastro](./requirements/signup.md)

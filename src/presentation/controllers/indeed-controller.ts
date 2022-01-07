@@ -28,5 +28,6 @@ export namespace IndeedController {
   export type Request = {
     Field_1: string
     Field_2: string
+    Field_3: string
   }
 }
